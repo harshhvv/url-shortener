@@ -26,6 +26,7 @@
 		3A319C0C26B7009700AC4916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A319C0E26B7009700AC4916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A319C1526B701CD00AC4916 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3A319C1926B71DD000AC4916 /* url shortener.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "url shortener.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		3A319BFF26B7009500AC4916 /* url shortener */ = {
 			isa = PBXGroup;
 			children = (
+				3A319C1926B71DD000AC4916 /* url shortener.entitlements */,
 				3A319C0026B7009500AC4916 /* AppDelegate.swift */,
 				3A319C0226B7009500AC4916 /* SceneDelegate.swift */,
 				3A319C0426B7009500AC4916 /* ContentView.swift */,
@@ -290,6 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "url shortener/url shortener.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"url shortener/Preview Content\"";
 				DEVELOPMENT_TEAM = S29QBK3NMB;
@@ -301,6 +304,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "harshvv.url-shortener";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -311,6 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "url shortener/url shortener.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"url shortener/Preview Content\"";
 				DEVELOPMENT_TEAM = S29QBK3NMB;
@@ -322,6 +327,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "harshvv.url-shortener";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
