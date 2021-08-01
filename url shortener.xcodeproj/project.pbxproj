@@ -13,6 +13,7 @@
 		3A319C0726B7009700AC4916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A319C0626B7009700AC4916 /* Assets.xcassets */; };
 		3A319C0A26B7009700AC4916 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A319C0926B7009700AC4916 /* Preview Assets.xcassets */; };
 		3A319C0D26B7009700AC4916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A319C0B26B7009700AC4916 /* LaunchScreen.storyboard */; };
+		3A319C1626B701CD00AC4916 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A319C1526B701CD00AC4916 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3A319C0926B7009700AC4916 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A319C0C26B7009700AC4916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A319C0E26B7009700AC4916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A319C1526B701CD00AC4916 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3A319C0B26B7009700AC4916 /* LaunchScreen.storyboard */,
 				3A319C0E26B7009700AC4916 /* Info.plist */,
 				3A319C0826B7009700AC4916 /* Preview Content */,
+				3A319C1526B701CD00AC4916 /* ViewModel.swift */,
 			);
 			path = "url shortener";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			files = (
 				3A319C0126B7009500AC4916 /* AppDelegate.swift in Sources */,
 				3A319C0326B7009500AC4916 /* SceneDelegate.swift in Sources */,
+				3A319C1626B701CD00AC4916 /* ViewModel.swift in Sources */,
 				3A319C0526B7009500AC4916 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
